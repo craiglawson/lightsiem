@@ -710,15 +710,15 @@
           },
           "overflow": "min-height",
           "fields": [
-            "Alert.CreateTime",
+            "Alert.ReceiveTime",
             "Alert.Sensor.Node.Name",
             "Alert.Analyzer.Level.Normalized",
             "Alert.Classification.Text",
             "Alert.Source.rawmessage",
-			"Alert.Source.Node.Address"
+            "Alert.Source.Node.Address"
           ],
           "localTime": true,
-          "timeField": "@timestamp",
+          "timeField": "Alert.ReceiveTime",
           "highlight": [],
           "sortable": true,
           "header": true,
